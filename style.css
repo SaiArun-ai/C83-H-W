@@ -1,0 +1,51 @@
+.body_backgorund {
+    background-image: url("bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: -5;
+    border-style: ridge;
+}
+body  {
+    cursor: pointer;
+  }
+h1 {
+      color: red; 
+      font-size: 40px;
+
+  }
+#myCanvas  {
+      border-width:10px;
+      background-color: white; 
+      border-style:ridge;
+  }
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(2, 2, 2);
+    padding: 10px 42px;
+    font-size: 16px;
+}
+
+
+input {
+    margin-right: 20px;
+    font-family: cursive;
+  	font-size: 15px;
+  	line-height: 20px;
+  	width: 80%;
+	  height: 50px;
+	  color: #fff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+    background-color: black;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.4s 0.4s ease; 
+  text-indent: -100%;
+opacity: 1;
+color: white;
+}
+  
